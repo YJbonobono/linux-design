@@ -6,7 +6,7 @@ do
 	for j in $(seq 1 $col)
 	do
 		gob=`expr $i \* $j`
-		echo $i "*" $j "=" $gob
+		echo -n $i"*"$j"="$gob" "
 	done
 	echo "\n"
 done

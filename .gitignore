@@ -3,3 +3,5 @@
 *.tar
 *.tar.xz
 vmlinux
+*.dwo
+*mod

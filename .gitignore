@@ -1,0 +1,5 @@
+*.o
+*.a
+*.tar
+*.tar.xz
+vmlinux

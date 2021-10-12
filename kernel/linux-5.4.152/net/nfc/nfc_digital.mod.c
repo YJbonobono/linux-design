@@ -1,0 +1,79 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xf6b02092, "module_layout" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0x6679efb, "nfc_register_device" },
+	{ 0x937e7c68, "kmalloc_caches" },
+	{ 0x9a34a2b, "crc_itu_t" },
+	{ 0x79aa04a2, "get_random_bytes" },
+	{ 0x945820be, "nfc_dep_link_is_up" },
+	{ 0xcec3f2ec, "nfc_targets_found" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0xdf566a59, "__x86_indirect_thunk_r9" },
+	{ 0x3c12dfe, "cancel_work_sync" },
+	{ 0x837b7b09, "__dynamic_pr_debug" },
+	{ 0xc29957c3, "__x86_indirect_thunk_rcx" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x9fa7184a, "cancel_delayed_work_sync" },
+	{ 0x409bcb62, "mutex_unlock" },
+	{ 0x165b145c, "ex_handler_refcount" },
+	{ 0x40a09deb, "skb_trim" },
+	{ 0xa6c7cd5c, "nfc_tm_activated" },
+	{ 0x977f511b, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0x581cf443, "skb_push" },
+	{ 0x2ab7989d, "mutex_lock" },
+	{ 0xce8b1878, "__x86_indirect_thunk_r14" },
+	{ 0x9b553753, "skb_pull" },
+	{ 0x448f76fc, "nfc_set_remote_general_bytes" },
+	{ 0x3f49b4c5, "nfc_get_local_general_bytes" },
+	{ 0x167c5967, "print_hex_dump" },
+	{ 0xbecfaee9, "skb_copy_expand" },
+	{ 0xac8173c9, "__alloc_skb" },
+	{ 0xfb0c6b14, "put_device" },
+	{ 0xb2fcb56d, "queue_delayed_work_on" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x756a2b9e, "nfc_alloc_recv_skb" },
+	{ 0xfb2b900, "kfree_skb" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x241d32, "__pskb_copy_fclone" },
+	{ 0x18d9e652, "kmem_cache_alloc_trace" },
+	{ 0xcc98e8fa, "nfc_tm_data_received" },
+	{ 0x52ecbc75, "crc_ccitt" },
+	{ 0x26f3ca6f, "nfc_allocate_device" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0xd8ddfa76, "nfc_unregister_device" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0xb832485a, "consume_skb" },
+	{ 0x3a8858ae, "skb_put" },
+};
+
+MODULE_INFO(depends, "nfc,crc-itu-t");
+
+
+MODULE_INFO(srcversion, "65285C58D7C9508A89241CC");

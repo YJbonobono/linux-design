@@ -1,0 +1,4 @@
+drivers/soundwire/soundwire-bus.ko
+drivers/soundwire/soundwire-cadence.ko
+drivers/soundwire/soundwire-intel.ko
+drivers/soundwire/soundwire-intel-init.ko

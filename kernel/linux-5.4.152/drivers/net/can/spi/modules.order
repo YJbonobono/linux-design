@@ -1,0 +1,2 @@
+drivers/net/can/spi/hi311x.ko
+drivers/net/can/spi/mcp251x.ko

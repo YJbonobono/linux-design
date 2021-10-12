@@ -1,0 +1,156 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xf6b02092, "module_layout" },
+	{ 0xa3b53740, "single_release" },
+	{ 0x5932b0cc, "seq_read" },
+	{ 0xcdaf7988, "seq_lseek" },
+	{ 0xaf1e3085, "param_ops_int" },
+	{ 0x9d0d6206, "unregister_netdevice_notifier" },
+	{ 0xb92ea046, "unregister_pernet_subsys" },
+	{ 0xd2da1048, "register_netdevice_notifier" },
+	{ 0x88cb6a1c, "register_pernet_subsys" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0xad10eb8, "_raw_read_unlock_bh" },
+	{ 0x150e3657, "_raw_read_lock_bh" },
+	{ 0x4482cdb, "__refrigerator" },
+	{ 0xa263ce82, "freezing_slow_path" },
+	{ 0x7ab88a45, "system_freezing_cnt" },
+	{ 0xa1c76e0a, "_cond_resched" },
+	{ 0xb3f7646e, "kthread_should_stop" },
+	{ 0x9e61bb05, "set_freezable" },
+	{ 0x29361773, "complete" },
+	{ 0xad73041f, "autoremove_wake_function" },
+	{ 0x19f462ab, "kfree_call_rcu" },
+	{ 0x49c41a57, "_raw_spin_unlock_bh" },
+	{ 0xb3635b01, "_raw_spin_lock_bh" },
+	{ 0xee82c453, "skb_checksum" },
+	{ 0x88802c67, "udp4_hwcsum" },
+	{ 0xb47cca30, "csum_ipv6_magic" },
+	{ 0xfc7b6a19, "dev_queue_xmit" },
+	{ 0xabc205b7, "netif_receive_skb" },
+	{ 0x4dc8f31d, "eth_type_trans" },
+	{ 0xb2141336, "pktgen_xfrm_outer_mode_output" },
+	{ 0x9b553753, "skb_pull" },
+	{ 0xd0504053, "pskb_expand_head" },
+	{ 0x2124474, "ip_send_check" },
+	{ 0xdbf17652, "_raw_spin_lock" },
+	{ 0xdfbdc769, "pv_ops" },
+	{ 0x581cf443, "skb_push" },
+	{ 0xf6ebc03b, "net_ratelimit" },
+	{ 0xa0c6befa, "hrtimer_cancel" },
+	{ 0x1000e51, "schedule" },
+	{ 0xe628d750, "hrtimer_sleeper_start_expires" },
+	{ 0xc0f29b16, "hrtimer_init_sleeper" },
+	{ 0x3c3fce39, "__local_bh_enable_ip" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0x98141b8e, "softnet_data" },
+	{ 0x4629334c, "__preempt_count" },
+	{ 0x9ec6ca96, "ktime_get_real_ts64" },
+	{ 0x85493c9, "__alloc_pages_nodemask" },
+	{ 0xfb578fc5, "memset" },
+	{ 0x3a8858ae, "skb_put" },
+	{ 0x17de3d5, "nr_cpu_ids" },
+	{ 0xc5e4a5d1, "cpumask_next" },
+	{ 0x5a5a2271, "__cpu_online_mask" },
+	{ 0x6de13801, "wait_for_completion" },
+	{ 0x130b568, "wake_up_process" },
+	{ 0xcca3c037, "kthread_bind" },
+	{ 0xfb2b6907, "kthread_create_on_node" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x977f511b, "__mutex_init" },
+	{ 0x51463ae5, "proc_create" },
+	{ 0x524f0ed8, "proc_mkdir" },
+	{ 0x9bd1bf27, "proc_remove" },
+	{ 0x999e8297, "vfree" },
+	{ 0x4297c00d, "proc_create_data" },
+	{ 0x7028574e, "dev_get_by_name" },
+	{ 0x9e0c711d, "vzalloc_node" },
+	{ 0xeb7840a1, "kmem_cache_alloc_node_trace" },
+	{ 0x937e7c68, "kmalloc_caches" },
+	{ 0xb19a5453, "__per_cpu_offset" },
+	{ 0x556d02be, "__xfrm_state_destroy" },
+	{ 0x54496b4, "schedule_timeout_interruptible" },
+	{ 0xc6cbbc89, "capable" },
+	{ 0x1c8f4c84, "module_put" },
+	{ 0xcc5005fe, "msleep_interruptible" },
+	{ 0x6006847, "current_task" },
+	{ 0x64a5ffa3, "try_module_get" },
+	{ 0x3609af8f, "__netdev_alloc_skb" },
+	{ 0x618911fc, "numa_node" },
+	{ 0xac8173c9, "__alloc_skb" },
+	{ 0x6ee6cb45, "xfrm_stateonly_find" },
+	{ 0x604a4d5b, "xfrm_state_lookup_byspi" },
+	{ 0x7a2af7b4, "cpu_number" },
+	{ 0xfda9581f, "prandom_u32" },
+	{ 0xfb2b900, "kfree_skb" },
+	{ 0xaff55470, "remove_proc_entry" },
+	{ 0x6b8208a9, "__put_task_struct" },
+	{ 0x165b145c, "ex_handler_refcount" },
+	{ 0xce2526b0, "kthread_stop" },
+	{ 0x409bcb62, "mutex_unlock" },
+	{ 0x2ab7989d, "mutex_lock" },
+	{ 0x5a921311, "strncmp" },
+	{ 0x754d539c, "strlen" },
+	{ 0xc5850110, "printk" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x71dc307b, "__put_page" },
+	{ 0x48c67edc, "__put_devmap_managed_page" },
+	{ 0x652032cb, "mac_pton" },
+	{ 0x1b6314fd, "in_aton" },
+	{ 0xa916b694, "strnlen" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0x609bcd98, "in6_pton" },
+	{ 0x587f22d7, "devmap_managed_key" },
+	{ 0x944c43f, "node_states" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x837b7b09, "__dynamic_pr_debug" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x41482d8b, "strndup_user" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0x13c49cc2, "_copy_from_user" },
+	{ 0x88db9f48, "__check_object_size" },
+	{ 0x11f7ed4c, "hex_to_bin" },
+	{ 0x167e7f9d, "__get_user_1" },
+	{ 0xb43f9365, "ktime_get" },
+	{ 0xb177d101, "seq_printf" },
+	{ 0xdb1d5e89, "seq_puts" },
+	{ 0x87a67f49, "single_open" },
+	{ 0xfd28534, "PDE_DATA" },
+	{ 0xbdfb6dbb, "__fentry__" },
+};
+
+MODULE_INFO(depends, "");
+
+
+MODULE_INFO(srcversion, "507A673CF6B64222C608672");

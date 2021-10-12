@@ -1,0 +1,157 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xf6b02092, "module_layout" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0x7e83fb8, "device_remove_file" },
+	{ 0x4ea7ac1f, "netdev_info" },
+	{ 0x937e7c68, "kmalloc_caches" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xd6889b39, "ieee80211_get_num_supported_channels" },
+	{ 0xf09b5d9a, "get_zeroed_page" },
+	{ 0x17726e51, "wiphy_free" },
+	{ 0x13d0adf7, "__kfifo_out" },
+	{ 0x4288e22b, "cfg80211_connect_done" },
+	{ 0x619cb7dd, "simple_read_from_buffer" },
+	{ 0xa6845e7a, "generic_file_llseek" },
+	{ 0xe33370d4, "debugfs_create_dir" },
+	{ 0xaf1e3085, "param_ops_int" },
+	{ 0x275867e8, "ieee80211_bss_get_elem" },
+	{ 0x2b68bd2f, "del_timer" },
+	{ 0x754d539c, "strlen" },
+	{ 0x139f2189, "__kfifo_alloc" },
+	{ 0xc4464103, "cfg80211_inform_bss_data" },
+	{ 0x37110088, "remove_wait_queue" },
+	{ 0xf93f1f4f, "netif_carrier_on" },
+	{ 0xb3635b01, "_raw_spin_lock_bh" },
+	{ 0x20000329, "simple_strtoul" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0x1c98b3ac, "netif_carrier_off" },
+	{ 0x3c12dfe, "cancel_work_sync" },
+	{ 0xc29957c3, "__x86_indirect_thunk_rcx" },
+	{ 0x9791d2e6, "ieee80211_channel_to_frequency" },
+	{ 0xcd64f96b, "__dev_kfree_skb_any" },
+	{ 0xeae3dfd6, "__const_udelay" },
+	{ 0x1d07e365, "memdup_user_nul" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x9fa7184a, "cancel_delayed_work_sync" },
+	{ 0x409bcb62, "mutex_unlock" },
+	{ 0xb8e05df3, "debugfs_create_file" },
+	{ 0x4629334c, "__preempt_count" },
+	{ 0xdfbdc769, "pv_ops" },
+	{ 0xfb2b6907, "kthread_create_on_node" },
+	{ 0xd9da003, "netdev_alert" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x6833822f, "netif_rx" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0xaad8c7d6, "default_wake_function" },
+	{ 0x97934ecf, "del_timer_sync" },
+	{ 0x5c3c7387, "kstrtoull" },
+	{ 0xfb578fc5, "memset" },
+	{ 0xcdeed490, "netif_rx_ni" },
+	{ 0x3dad9978, "cancel_delayed_work" },
+	{ 0x3cc4793f, "netif_tx_wake_queue" },
+	{ 0x3812050a, "_raw_spin_unlock_irqrestore" },
+	{ 0x6006847, "current_task" },
+	{ 0x7b8e87cc, "cfg80211_get_bss" },
+	{ 0x977f511b, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0xce2526b0, "kthread_stop" },
+	{ 0x449ad0a7, "memcmp" },
+	{ 0x30c76023, "free_netdev" },
+	{ 0x9e29c256, "wiphy_unregister" },
+	{ 0xa1c76e0a, "_cond_resched" },
+	{ 0xe296672d, "register_netdev" },
+	{ 0xf6f18d62, "ieee80211_get_channel" },
+	{ 0x2ddbd4f1, "debugfs_remove" },
+	{ 0x5792f848, "strlcpy" },
+	{ 0x581cf443, "skb_push" },
+	{ 0x2ab7989d, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0xc7ee435f, "cfg80211_michael_mic_failure" },
+	{ 0xc38c83b8, "mod_timer" },
+	{ 0x9b553753, "skb_pull" },
+	{ 0xb4facf8b, "simple_open" },
+	{ 0xefd4ff6, "request_firmware_nowait" },
+	{ 0x7dd510e4, "cfg80211_ibss_joined" },
+	{ 0x8a1e87b4, "_dev_err" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0xa976fc36, "device_create_file" },
+	{ 0xa46d9b6f, "netif_device_attach" },
+	{ 0xb601be4c, "__x86_indirect_thunk_rdx" },
+	{ 0xb881f5d0, "netif_device_detach" },
+	{ 0xd2b341cf, "cfg80211_put_bss" },
+	{ 0x4cd9d8cb, "wiphy_register" },
+	{ 0x49c41a57, "_raw_spin_unlock_bh" },
+	{ 0xb2fcb56d, "queue_delayed_work_on" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x1000e51, "schedule" },
+	{ 0xfb2b900, "kfree_skb" },
+	{ 0x47941711, "_raw_spin_lock_irq" },
+	{ 0x7d28b2c4, "wiphy_new_nm" },
+	{ 0x5193da32, "alloc_netdev_mqs" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0x4dc8f31d, "eth_type_trans" },
+	{ 0x130b568, "wake_up_process" },
+	{ 0xd0504053, "pskb_expand_head" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xcbfe734f, "netdev_err" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0xe1ab6e70, "ether_setup" },
+	{ 0xcc5005fe, "msleep_interruptible" },
+	{ 0xd98972de, "cfg80211_disconnected" },
+	{ 0x18d9e652, "kmem_cache_alloc_trace" },
+	{ 0x51760917, "_raw_spin_lock_irqsave" },
+	{ 0xdb760f52, "__kfifo_free" },
+	{ 0x4302d0eb, "free_pages" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0xb3f7646e, "kthread_should_stop" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0x291861ed, "eth_validate_addr" },
+	{ 0x4afb2238, "add_wait_queue" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x8a63c4a, "regulatory_hint" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x9601035f, "request_firmware" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0xe4d97e27, "unregister_netdev" },
+	{ 0xf23fcb99, "__kfifo_in" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xb832485a, "consume_skb" },
+	{ 0x21b81078, "cfg80211_scan_done" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0x9fe09916, "release_firmware" },
+};
+
+MODULE_INFO(depends, "cfg80211");
+
+
+MODULE_INFO(srcversion, "2C910EC94C72AD7F5C2C988");

@@ -1,0 +1,1 @@
+/home/yunjung/linseol/kernel/linux-5.4.152/scripts/gdb/vmlinux-gdb.py

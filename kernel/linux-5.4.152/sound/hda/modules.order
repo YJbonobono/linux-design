@@ -1,0 +1,3 @@
+sound/hda/snd-hda-core.ko
+sound/hda/ext/snd-hda-ext-core.ko
+sound/hda/snd-intel-nhlt.ko

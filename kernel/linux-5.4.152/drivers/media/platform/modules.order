@@ -1,0 +1,15 @@
+drivers/media/platform/cadence/cdns-csi2rx.ko
+drivers/media/platform/cadence/cdns-csi2tx.ko
+drivers/media/platform/aspeed-video.ko
+drivers/media/platform/via-camera.ko
+drivers/media/platform/marvell-ccic/cafe_ccic.ko
+drivers/media/platform/marvell-ccic/mcam-core.ko
+drivers/media/platform/vimc/vimc.ko
+drivers/media/platform/vimc/vimc-capture.ko
+drivers/media/platform/vimc/vimc-debayer.ko
+drivers/media/platform/vimc/vimc-scaler.ko
+drivers/media/platform/vimc/vimc-sensor.ko
+drivers/media/platform/vivid/vivid.ko
+drivers/media/platform/vim2m.ko
+drivers/media/platform/vicodec/vicodec.ko
+drivers/media/platform/m2m-deinterlace.ko

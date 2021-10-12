@@ -1,0 +1,1 @@
+cmd_/home/yunjung/linseol/kernel/linux-5.4.152/tools/objtool/arch/x86/objtool-in.o :=  ld -r -o /home/yunjung/linseol/kernel/linux-5.4.152/tools/objtool/arch/x86/objtool-in.o  /home/yunjung/linseol/kernel/linux-5.4.152/tools/objtool/arch/x86/decode.o

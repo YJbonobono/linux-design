@@ -1,0 +1,6 @@
+drivers/staging/most/most_core.ko
+drivers/staging/most/cdev/most_cdev.ko
+drivers/staging/most/net/most_net.ko
+drivers/staging/most/sound/most_sound.ko
+drivers/staging/most/video/most_video.ko
+drivers/staging/most/i2c/most_i2c.ko

@@ -1,0 +1,1 @@
+cmd_/home/yunjung/linseol/kernel/linux-5.4.152/tools/objtool/fixdep-in.o :=  ld -r -o /home/yunjung/linseol/kernel/linux-5.4.152/tools/objtool/fixdep-in.o  /home/yunjung/linseol/kernel/linux-5.4.152/tools/objtool/fixdep.o

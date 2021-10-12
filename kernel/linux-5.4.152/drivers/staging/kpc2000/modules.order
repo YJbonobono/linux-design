@@ -1,0 +1,4 @@
+drivers/staging/kpc2000/kpc2000/kpc2000.ko
+drivers/staging/kpc2000/kpc2000_i2c.ko
+drivers/staging/kpc2000/kpc2000_spi.ko
+drivers/staging/kpc2000/kpc_dma/kpc_dma.ko

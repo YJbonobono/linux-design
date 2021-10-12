@@ -1,0 +1,8 @@
+sound/soc/fsl/snd-soc-fsl-audmix.ko
+sound/soc/fsl/snd-soc-fsl-asrc.ko
+sound/soc/fsl/snd-soc-fsl-sai.ko
+sound/soc/fsl/snd-soc-fsl-ssi.ko
+sound/soc/fsl/snd-soc-fsl-spdif.ko
+sound/soc/fsl/snd-soc-fsl-esai.ko
+sound/soc/fsl/snd-soc-fsl-micfil.ko
+sound/soc/fsl/snd-soc-imx-audmux.ko
